@@ -1,0 +1,32 @@
+* {
+    font-family: 'DM Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    padding: 20px;
+    background-color: rgb(244, 246, 254);
+}
+
+#main-content {
+    display: block;
+    text-align: center;
+    cursor: default;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#logo {
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+.redirect-link {
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.redirect-link:hover {
+    background-color: black;
+    color: white;
+}
